@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+  /* width: 100%; */
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url(./img/background.png);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #0c0c0e;
+}
+
+body * {
+  font-family: "inter", sans-serif;
+  line-height: 160%;
+}
+
+header div {
+  width: 100%;
+  width: 100px;
+  margin: 50px auto;
+  border-radius: 50%;
+  display: flex;
+}
+
+header img {
+  width: 150px;
+  height: 40px;
+  margin-left: 550px;
+  border-radius: 15%;
+}
+
+.esquerda {
+  display: flex;
+}
+
+.corpo {
+  display: flex;
+}
+
+.quadradosMaiores {
+  display: flex;
+  padding: 12px;
+  margin: 7px;
+  margin-left: 50px;
+}
+
+.quadradosMenores {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  margin: -15px;
+  margin-top: 8px;
+  margin-left: 50px;
+}
+
+.oitavas {
+  margin-right: 50px;
+}
+
+.grupos-direito {
+  margin-right: 50px;
+}
+
+.quartas {
+  padding: 4px;
+  margin: -4px;
+  margin-top: 200px;
+}
+
+.quartas-esquerda {
+  margin-top: 0px;
+}
+
+.li-esquerda {
+  margin-top: 30px;
+}
+
+.semifinal {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.semifinaldireita {
+  margin: -7px;
+  margin-top: 20px;
+}
+
+.final {
+  margin-top: -200px;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+@media (max-width: 450px) {
+  img {
+    width: 50px;
+  }
+}
