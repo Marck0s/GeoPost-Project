@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   margin: auto;
-  /* width: 100%; */
 }
 
 ul {
@@ -90,12 +89,14 @@ header img {
 }
 
 .semifinaldireita {
-  margin: -7px;
-  margin-top: 20px;
+  margin: -42px;
+  margin-top: -38px;
 }
 
 .final {
   margin-top: -200px;
+  margin-right: 60px;
+  display: block;
 }
 
 .rodape {
@@ -104,6 +105,99 @@ header img {
   width: 100%;
   text-align: center;
   line-height: 100px;
+}
+
+.vinculoesquerdaCD {
+  position: absolute;
+  margin-left: 140px;
+  margin-bottom: px;
+}
+
+.vinculoesquerdaAB {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 95px;
+}
+
+.vinculoesquerdaABOitavas {
+  position: absolute;
+  margin-left: 110px;
+}
+
+.vinculoesquerdaABQuartas {
+  position: absolute;
+  margin-left: 94px;
+}
+
+.vinculoesquerdaEF {
+  position: absolute;
+  margin-left: -250px;
+  margin-top: 95px;
+}
+
+.vinculoesquerdaGH {
+  position: absolute;
+  margin-left: -250px;
+  margin-bottom: 95px;
+}
+
+.vinculoesquerdaEFOitavas {
+  position: absolute;
+  margin-left: -215px;
+}
+
+.vinculoesquerdaEHQuartas {
+  position: absolute;
+  margin-left: -209px;
+}
+
+.vinculocima {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -20px;
+}
+
+.oitavasLeft {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 85px;
+}
+
+.oitavasRight {
+  position: absolute;
+  margin-left: -240px;
+  margin-top: 85px;
+}
+
+.quartasLeft {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 70px;
+}
+
+.quartasRight {
+  position: absolute;
+  margin-left: -215px;
+  margin-top: 70px;
+}
+
+.semiFinaisL {
+  position: absolute;
+  margin-left: 155px;
+  margin-top: 25px;
+}
+
+.semiFinaisR {
+  position: absolute;
+  margin-left: -170px;
+  margin-top: 25px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 165, 165);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
 }
 
 @media (max-width: 450px) {
