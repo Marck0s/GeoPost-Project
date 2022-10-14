@@ -77,7 +77,7 @@
             <div class="vinculoesquerdaABOitavas">
               <img src="./img/Grupos/Vinculoesquerda.ico" alt="vinculoGrupoABQuartas" width="230px">
             </div>
-            
+
             <li>
               <img src="./img/TabelaMenor.png" alt="1Ex2F">
             </li>
@@ -223,6 +223,34 @@
       <img src="./img/FIFA-WorldCup.png" alt="LogoQatar">
     </footer>
   </main>
+
+  <hr />
+
+  <div style="color: red;" class="resposta"></div>
+  <div style="color: red;" class="resposta"></div>
+  <div style="color: red;" class="resposta"></div>
+  <div style="color: red;" class="resposta"></div>
+
+  <script>
+    function fazerRequisicao() {
+
+      var url = "https://estagio.geopostenergy.com/WorldCup/GetAllTeams";
+
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET", url, false);
+      xhttp.setRequestHeader("git-user", 'Marck0s');
+      xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
+
+      var myObj = JSON.parse(xhttp.responseText);
+
+      let collection = document.getElementsByClassName("resposta");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].innerHTML = myObj['Result'][i]['Name'];
+      }
+    }
+    fazerRequisicao();
+  </script>
+
 </body>
 
 </html>
