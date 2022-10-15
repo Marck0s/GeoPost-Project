@@ -12,11 +12,9 @@ ul {
 body {
   background-image: url(./img/background.png);
   background-position: top center;
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #0c0c0e;
-  width: 100%;
-  position: relative;
 }
 
 body * {
