@@ -2,7 +2,7 @@
 
 ![preview](./img/LogoMD.png)
 
-> Trilha Explorer
+> Estágio Geopost:
 Projeto Construído para o Estágio de Desenvolvimento de Software da Geopost.
 
 [🔗Clique aqui para acessar](https://marck0s.github.io/GeoPost-Project)
