@@ -100,11 +100,13 @@ header img {
 }
 
 .rodape {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
   line-height: 100px;
+  margin-top: -170px;
+  opacity: 0.5;
 }
 
 .vinculoesquerdaCD {
@@ -153,7 +155,7 @@ header img {
 
 .vinculocima {
   position: absolute;
-  margin-left: 275px;
+  margin-left: 266px;
   margin-top: -20px;
 }
 
@@ -193,15 +195,16 @@ header img {
   margin-top: 25px;
 }
 
+.logofinal {
+  display: flex;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 870px;
+}
+
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(167, 165, 165);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
-}
-
-@media (max-width: 450px) {
-  img {
-    width: 50px;
-  }
 }
