@@ -1,3 +1,4 @@
+/* Estilizações Gerais */
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,14 @@ body * {
   line-height: 160%;
 }
 
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(167, 165, 165);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+/* Estilizações Individuais */
 header div {
   width: 100%;
   width: 100px;
@@ -37,6 +46,7 @@ header img {
   border-radius: 15%;
 }
 
+/* Estilizações Individuais Classes */
 .esquerda {
   display: flex;
 }
@@ -200,13 +210,6 @@ header img {
   position: absolute;
   margin-top: -50px;
   margin-left: 880px;
-}
-
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(167, 165, 165);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
 }
 
 /* Animation */
