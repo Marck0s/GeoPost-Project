@@ -1,3 +1,4 @@
+// Fazer Requisição
 function fazerRequisicao() {
   var url = "https://estagio.geopostenergy.com/WorldCup/GetAllTeams";
 
@@ -10,6 +11,7 @@ function fazerRequisicao() {
   return myObj.Result;
 }
 
+// Lógica e separação dos times em grupo
 const randomizarTime = (times) => times.sort(() => Math.random() - 0.5);
 
 function separarGrupos(times) {
@@ -43,3 +45,16 @@ const setDataIntoHtml = (data) => {
 
 const times = fazerRequisicao();
 const timesSeparados = separarGrupos(times);
+
+// Fazer Post
+function fazerRequisicao() {
+  var url = "https://estagio.geopostenergy.com/WorldCup/InsertFinalResult";
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", url, false);
+  xhttp.setRequestHeader("git-user", "Marck0s");
+  xhttp.send(); //A execução do script pára aqui até a requisição retornar do servidor
+
+  var myObj = JSON.parse(xhttp.responseText);
+  return myObj.Result;
+}

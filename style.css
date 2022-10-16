@@ -155,7 +155,7 @@ header img {
 
 .vinculocima {
   position: absolute;
-  margin-left: 266px;
+  margin-left: 275px;
   margin-top: -20px;
 }
 
@@ -199,7 +199,7 @@ header img {
   display: flex;
   position: absolute;
   margin-top: -50px;
-  margin-left: 870px;
+  margin-left: 880px;
 }
 
 h2 {
@@ -207,4 +207,21 @@ h2 {
   color: rgb(167, 165, 165);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
+}
+
+/* Animation */
+.animation {
+  animation: fromTop .7s .2s backwards;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
